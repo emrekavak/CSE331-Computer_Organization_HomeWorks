@@ -1,0 +1,40 @@
+module _32bitmux(result32x1mux ,in1, in0, slct2);
+input [31:0]in1;
+input [31:0]in0;
+input slct2;
+output [31:0]result32x1mux;
+
+_2x1mux _11(result32x1mux[0],in1[0],in0[0],slct2);
+_2x1mux _21(result32x1mux[1],in1[1],in0[1],slct2);
+_2x1mux _31(result32x1mux[2],in1[2],in0[2],slct2);
+_2x1mux _41(result32x1mux[3],in1[3],in0[3],slct2);
+_2x1mux _51(result32x1mux[4],in1[4],in0[4],slct2);
+_2x1mux _61(result32x1mux[5],in1[5],in0[5],slct2);
+_2x1mux _71(result32x1mux[6],in1[6],in0[6],slct2);
+_2x1mux _81(result32x1mux[7],in1[7],in0[7],slct2);
+_2x1mux _91(result32x1mux[8],in1[8],in0[8],slct2);
+_2x1mux _110(result32x1mux[9],in1[9],in0[9],slct2);
+_2x1mux _111(result32x1mux[10],in1[10],in0[10],slct2);
+_2x1mux _112(result32x1mux[11],in1[11],in0[11],slct2);
+_2x1mux _113(result32x1mux[12],in1[12],in0[12],slct2);
+_2x1mux _114(result32x1mux[13],in1[13],in0[13],slct2);
+_2x1mux _115(result32x1mux[14],in1[14],in0[14],slct2);
+_2x1mux _116(result32x1mux[15],in1[15],in0[15],slct2);
+_2x1mux _117(result32x1mux[16],in1[16],in0[16],slct2);
+_2x1mux _118(result32x1mux[17],in1[17],in0[17],slct2);
+_2x1mux _119(result32x1mux[18],in1[18],in0[18],slct2);
+_2x1mux _210(result32x1mux[19],in1[19],in0[19],slct2);
+_2x1mux _211(result32x1mux[20],in1[20],in0[20],slct2);
+_2x1mux _212(result32x1mux[21],in1[21],in0[21],slct2);
+_2x1mux _213(result32x1mux[22],in1[22],in0[22],slct2);
+_2x1mux _214(result32x1mux[23],in1[23],in0[23],slct2);
+_2x1mux _215(result32x1mux[24],in1[24],in0[24],slct2);
+_2x1mux _216(result32x1mux[25],in1[25],in0[25],slct2);
+_2x1mux _271(result32x1mux[26],in1[26],in0[26],slct2);
+_2x1mux _281(result32x1mux[27],in1[27],in0[27],slct2);
+_2x1mux _291(result32x1mux[28],in1[28],in0[28],slct2);
+_2x1mux _301(result32x1mux[29],in1[29],in0[29],slct2);
+_2x1mux _311(result32x1mux[30],in1[30],in0[30],slct2);
+_2x1mux _321(result32x1mux[31],in1[31],in0[31],slct2);
+
+endmodule 
